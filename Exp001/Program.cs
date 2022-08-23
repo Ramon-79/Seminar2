@@ -27,7 +27,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 // в этом цикле мы проверяем, соответствует ли ввод условиям:
 // цикл продлжится, пока введенное число меньше 10 ИЛИ больше 100 
-while(number < 10 || number > 100)
+while(number < 10 || number > 99)
 {
     // Каждый раз просим ввести нужное число
     Console.WriteLine("Введенное число неверно. Введите число: ");
@@ -108,8 +108,7 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 
 // Вообще, заморочка с вайл не обязательна, но проще же работать с корректными данными, так?
 // Я тут не обрабатываю все ошибки ввода, только целые положительные числа
-// Кстати и вот это можно сделать с помощью метода, в следующей задаче напишу метод для проверки корректного ввода
-while(number1 < 10 || number1 > 100)
+while(number1 < 10 || number1 > 99)
 {
     Console.WriteLine("Введенное число неверно. Введите число: ");
     number1 = Convert.ToInt32(Console.ReadLine());
@@ -156,7 +155,7 @@ string WhatIsGreater(int some_number)
 Console.WriteLine("Укажите любое положительное число в диапазоне от 10 до 99");
 int number2 = Convert.ToInt32(Console.ReadLine());
 
-while(number2 < 10 || number2 > 100)
+while(number2 < 10 || number2 > 99)
 {
     Console.WriteLine("Введенное число неверно. Введите число: ");
     number2 = Convert.ToInt32(Console.ReadLine());
